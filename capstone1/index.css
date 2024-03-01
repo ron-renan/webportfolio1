@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto Slab sans-serif;
+}
+/* Hide horizontal scrollbar */
+body {
+
+	overflow-x: hidden;
+}
+
+#contact{
+	
+	background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?w=1060&t=st=1709277515~exp=1709278115~hmac=a51c7038de21b606a4082dfe1164cfe710f94ac17493829a0358b6494ed60ccf");
+}
