@@ -19,7 +19,7 @@
 <body>
 <!-- Navbar Section Start -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
   <a class="navbar-brand text-light" href="#top">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -46,33 +46,34 @@
 <!-- Navbar Section End -->
 
 <!-- Profile Section Start -->
-<main class="container-fluid text-light">
-  <div class="container-fluid ">
+
+  <div class="container-fluid text-light ">
     <div id="landing" class="row mt-5">
-      <div class="bg-secondary d-flex justify-content-center">
-        <div class="flex-column text-center p-3">
+      <div class="d-flex justify-content-center">
+        <div class="flex-column order-1 text-center p-3">
           <h1>Renante Escreza</h1>
 		      <h3>Full-Stack Developer</h3>
           <p>An organised, results-oriented Customer Service Professional with an excellent track record of significantly increasing service quality, sales and customer base. Outstanding communication, relationship-building and influencing skills; competent in building customer relationships which inspire confidence and loyalty. A highly efficient individual with extensive team leadership experience, able to adapt well to new environments and learn new processes quickly to achieve outstanding results. Strong ability to multi-task and prioritise, and able to organise, train and monitor teams. Seeking a new challenging role in Web Development.</p>
         </div>
-        <div class="flex-column offset-md-2 p-3">
+        <div class="flex-column col-lg-3 order-2 offset-md-2 p-3">
           <img class="mt-5 rounded-circle" src="./images/idniron.png" width="250">
         </div>
       </div>
     </div>
   </div>
+
 <!-- Profile Section End -->
 
 <!-- Projects Section Start -->
-<div id="projects" class="container-fluid bg-dark">
+<div id="projects" class="container-fluid">
 <div class="text-light mt-0">
 <h2 class="mb-3 text-center">My Projects</h2>
-<div class="d-lg-flex justify-content-center p-md-5 p-2">
+<div class="d-lg-flex justify-content-center p-md-2 p-2">
 <!-- HTML Card Start -->
-<div class="card bg-secondary col-xl-4 mb-5 mb-xl-0">
+<div class="card bg-white col-xl-4 mb-3 mb-xl-0 text-dark">
 <div class="card-body">
 <img src="./images/logo-html5.png" class="card-img-top" alt="...">
-<h5 class="card-title mt-3">HTML</h5>
+<h5 class="card-title mt-1">HTML</h5>
 <h6 class="card-subtitle text-muted mb-2">Programming Basics</h6>
 <p class="card-text">A front-end developer architects and develops websites and applications using web technologies (i.e., HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation input for non-web platform environments (i.e., React Native).
 </p>
@@ -81,11 +82,11 @@
 </div>
 
 <!-- Bootstrap Card Start -->
-<div class="card bg-secondary col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5 p-2">
+<div class="card bg-secondary col-xl-4 mb-3 mb-xl-0 mr-xl-4 ml-xl-5 p-2">
 <div class="card-body">
 <img src="./images/logo-bootstrap.png" class="card-img-top" alt="...">
-<h5 class="card-title mt-3">Bootstrap</h5>
-<h6 class="card-subtitle text-muted mb-2">Rapid Prototyping</h6>
+<h5 class="card-title mt-1">Bootstrap</h5>
+<h6 class="card-subtitle mb-2">Rapid Prototyping</h6>
 <p class="card-text">
 Rapid prototyping is an agile strategy used throughout the product development process. With this approach, 3-dimensional prototypes of a product or feature are created and tested to optimize characteristics like shape, size, and overall usability. See Also: Rapid Experimentation.
 </p>
@@ -95,11 +96,11 @@ Rapid prototyping is an agile strategy used throughout the product development p
 <!-- Bootstrap Card End -->
 
 <!-- Node JS Server Card Start -->
-<div class="card bg-secondary col-xl-4 mb-5 mb-xl-0 p-2">
+<div class="card bg-white col-xl-4 mb-3 mb-xl-0 p-2 text-dark">
 <div class="card-body">
 <!-- <img src="./images/nodejs.png" class="card-img-top" alt="..."> -->
 <img src="./images/logo-nodejs.png" class="card-img-top" alt="...">
-<h5 class="card-title mt-3">Node JS Server</h5>
+<h5 class="card-title mt-1">Node JS Server</h5>
 <h6 class="card-subtitle text-muted mb-2">Backend Basics</h6>
 <p class="card-text">
 The web application framework is used to build backend websites using languages like Visual Basic (VB), C#, F#, and more. Its MVC (Model-View- ...
@@ -114,12 +115,14 @@ The web application framework is used to build backend websites using languages 
 
 
 <!-- Tools Section Start -->
-<div id="tools" class="container-fluid bg-secondary">
+<div id="tools" class="container-fluid">
+
+  <h2 class="mb-3 text-center text-light">Tools</h2>
   <div class="row align-items-start">
   <!-- Front End Tools Section Start -->
     
-    <div id="frontend-tools" class="d-flex flex-column col-sm-12 col-md-4 p-3 bg-info">
-      <h3 class="text-center bg-info mt-3 mb-0">Front End Tools</h3>
+    <div id="frontend-tools" class="d-flex flex-column col-sm-12 col-md-4 p-3 bg-secondary">
+      <h3 class="text-center bg-secondary mt-3 mb-0">Front End Tools</h3>
       <div class="d-flex justify-content-center">
         <img width="150" src="./images/logo-html5.png"/>     
         <img width="150" src="./images/logo-css3.png"/>
@@ -145,7 +148,7 @@ The web application framework is used to build backend websites using languages 
     </div>
     <!-- Stack Tools Section End -->
     <!-- Other Tools Section End -->
-    <div id="other-tools" class="d-flex flex-column col-sm-12 col-md-4 p-3 bg-info">
+    <div id="other-tools" class="d-flex flex-column col-sm-12 col-md-4 p-3 bg-secondary">
       <h3 class="text-center mt-3">Other Tools</h3>      
         <div class="d-flex justify-content-center">
           <img width="150" src="images/logo-git.png"/>
@@ -159,11 +162,14 @@ The web application framework is used to build backend websites using languages 
     </div>
     <!-- Other Tools Section End -->
   </div>
+ 
 </div>
 
 <!-- Contact Me Section Start-->
 <div id="contact" class="container-fluid p-0">
-  <div class="row mt-2 align-items-start">
+  <h2 class="text-center text-white">Contact</h2>
+  
+  <div class="row align-items-start">
     <div class="col-xm-12 col-md-4 text-light text-center">
       <h2>Find Me</h2>
       <a href="https://www.facebook.com/SimonDivDave"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -179,7 +185,7 @@ The web application framework is used to build backend websites using languages 
   
     <div class="row mb-2 justify-content-end">
     <div class="col-xm-12 col-md-4 text-light">
-      <h2 class="text-light">Contact Me</h2>
+      <h2 class="text-light">Message Me</h2>
     <form id="form-col" class="bg-light p-3">
       <div class="form-group">
         <label for="FormName">Name:</label>
@@ -223,9 +229,10 @@ The web application framework is used to build backend websites using languages 
   </div>
   </div>
   </div>
+  
   </div>
   </div>
-</main>
+
 <!-- Contact Me Section End -->
 
 <!-- Start of Footer -->
