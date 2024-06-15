@@ -9,6 +9,10 @@ body {
 
 	overflow-x: hidden;
 	background-image: url("https://wallpaperaccess.com/full/1526011.jpg");
+
+}
+h1, h2, h3, p {
+	color: white;
 }
 
 
